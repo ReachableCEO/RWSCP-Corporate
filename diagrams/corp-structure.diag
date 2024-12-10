@@ -1,0 +1,12 @@
+blockdiag {
+  "Turn Net Systems LLC" -> "RWSCP";
+  "Turn Net Systems LLC" -> "RWSCP" -> "Management Series";
+  "Turn Net Systems LLC" -> "RWSCP" -> "Funds";
+  "Turn Net Systems LLC" -> "RWSCP" -> "Funds" -> "Lewis & Clark (Growth cap)";
+  "Turn Net Systems LLC" -> "RWSCP" -> "Funds" -> "Avenue G (VC)";
+  "Turn Net Systems LLC" -> "RWSCP" -> "Funds" -> "Boring & Beautiful (PE)";
+  "Turn Net Systems LLC" -> "RWSCP" -> "Funds" -> "The Campus (prop shop)";
+  "Turn Net Systems LLC" -> "RWSCP" -> "SPV";
+  "Turn Net Systems LLC" -> "RWSCP" -> "SPV" -> "HFNFC (crowdfunding)";
+  "Turn Net Systems LLC" -> "RWSCP" -> "SPV" -> "Quantum Wind (tdesk)";
+}
